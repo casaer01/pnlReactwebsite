@@ -4,6 +4,7 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Topnavbar from './components/TopNavbar/Topnavbar';
 import Slideshow from './components/sildeshow/Slideshow';
+import AboutPNL from './components/AboutPNL/AboutPNL';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 
@@ -11,6 +12,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Topnavbar />
     <Slideshow />
+    <AboutPNL />
   </React.StrictMode>,
   document.getElementById('root')
 );

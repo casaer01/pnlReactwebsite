@@ -1,8 +1,10 @@
 import React ,{ Component } from "react";
 import Carousel from 'react-bootstrap/Carousel'
 import './Slideshow.css';
-import 'bootstrap/dist/css/bootstrap.min.css'
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import conca from '../../images/slideImages/msldr1a.png';
+import tortillasPic from '../../images/slideImages/msldr2a.png'
+import veganPic from '../../images/slideImages/msldr4a.png'
 
 
 
@@ -12,7 +14,7 @@ class Slideshow extends Component{
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="holder.js/800x400?text=First slide&bg=373940"
+            src={conca}
             alt="First slide"
           />
           <Carousel.Caption>
@@ -23,7 +25,7 @@ class Slideshow extends Component{
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="holder.js/800x400?text=Second slide&bg=282c34"
+            src={tortillasPic}
             alt="Second slide"
           />
       
@@ -35,7 +37,7 @@ class Slideshow extends Component{
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="holder.js/800x400?text=Third slide&bg=20232a"
+            src={veganPic}
             alt="Third slide"
           />
       
