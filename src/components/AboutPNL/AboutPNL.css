@@ -1,0 +1,9 @@
+.aboutpnl {
+  background-image: url(../../images/aboutbg.png);
+  background-size: cover;
+  padding: 10%;
+}
+
+.info {
+  color: white;
+}
