@@ -8,7 +8,7 @@ import Container from 'react-bootstrap/Container';
 class Topnavbar extends Component {
     render() { 
         return <Container> 
-            <Navbar className="justify-content-end" fixed="top" bg="danger" variant="light">
+            <Navbar className="justify-content-end" fixed="top" variant="dark">
                 <Navbar.Brand href="#home">Navbar</Navbar.Brand>
                 <Nav className="mr-auto ">
                 <Nav.Link href="#home">Home</Nav.Link>

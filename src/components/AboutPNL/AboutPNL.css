@@ -6,4 +6,10 @@
 
 .info {
   color: white;
+  text-align: center;
+  font-size: larger;
+}
+
+.pnllogosRow {
+  padding-bottom: 4%;
 }
