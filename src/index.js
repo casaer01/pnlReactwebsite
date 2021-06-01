@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Topnavbar from './components/TopNavbar/Topnavbar';
 import Slideshow from './components/sildeshow/Slideshow';
 import AboutPNL from './components/AboutPNL/AboutPNL';
+import FooterPNL from './components/footerPNL/footerPNL';
 // import App from './App';
 // import reportWebVitals from './reportWebVitals';
 
@@ -13,6 +14,7 @@ ReactDOM.render(
     <Topnavbar />
     <Slideshow />
     <AboutPNL />
+    <FooterPNL />
   </div>,
   document.getElementById('root')
 );

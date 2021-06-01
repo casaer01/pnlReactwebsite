@@ -4,19 +4,23 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import pnldistlogo from '../../../src/images/PNLdistlogo.png';
 import pnldistmenu from '../../../src/images/PNLdistmenu.png';
+import pnlstrip from '../../images/breads.png';
 import "./AboutPNL.css"
 
 
 class AboutPNL extends Component{
     render() {
-        return <div className="aboutpnl">
+        return <Container className="aboutpnl" fluid >
+            <span>
+                <img className="pnlstrip" src={pnlstrip} />
+            </span>
             <Container>
                 <Row className="pnllogosRow">
                     <Col>
-                        <img src={pnldistlogo} width='100%' height='100%' />
+                        <img src={pnldistlogo} alt="PNL's logo " width='100%' />
                     </Col>
                     <Col>
-                        <img src={pnldistmenu} width='100%' height='100%' />
+                        <img src={pnldistmenu} alt="Pnl's short menu" width='100%' />
                     </Col>
                 </Row>
             </Container>
@@ -32,7 +36,10 @@ class AboutPNL extends Component{
                 <p className='info'>
                 We have a growing selection of Vegan breads, sweets, and tortillas - Stop by today to see all the delicacies we have to offer!
                 </p>
-            </div>
+                <span>
+                    <img className="pnlstrip" src={pnlstrip} />
+                </span>
+            </Container>
     }
 }
 

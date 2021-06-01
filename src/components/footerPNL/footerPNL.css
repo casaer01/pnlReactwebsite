@@ -1,0 +1,14 @@
+.footermain {
+  background-color: #8c0606;
+}
+
+.footerRow {
+  /* padding-top: 5%;
+  padding-bottom: 5%; */
+  padding: 3% 2%;
+  color: white;
+}
+
+a {
+  padding: 5px 10px;
+}

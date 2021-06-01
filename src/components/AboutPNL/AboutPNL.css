@@ -1,7 +1,7 @@
 .aboutpnl {
   background-image: url(../../images/aboutbg.png);
   background-size: cover;
-  padding: 10%;
+  padding-left: 0;
 }
 
 .info {
@@ -12,4 +12,9 @@
 
 .pnllogosRow {
   padding-bottom: 4%;
+}
+
+.pnlstrip {
+  width: 100%;
+  padding: 5% 0%;
 }
