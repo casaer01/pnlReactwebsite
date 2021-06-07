@@ -1,5 +1,10 @@
 .footermain {
-  background-color: #8c0606;
+  background: rgb(140, 6, 6);
+  background: linear-gradient(
+    0deg,
+    rgba(140, 6, 6, 1) 85%,
+    rgba(112, 4, 4, 1) 100%
+  );
 }
 
 .footerRow {

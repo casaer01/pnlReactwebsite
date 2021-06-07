@@ -12,7 +12,7 @@ class AboutPNL extends Component{
     render() {
         return <Container className="aboutpnl" fluid >
             <span>
-                <img className="pnlstrip" src={pnlstrip} />
+                <img className="pnlstrip" src={pnlstrip} alt="pnl strip of bread" />
             </span>
             <Container>
                 <Row className="pnllogosRow">
@@ -37,7 +37,7 @@ class AboutPNL extends Component{
                 We have a growing selection of Vegan breads, sweets, and tortillas - Stop by today to see all the delicacies we have to offer!
                 </p>
                 <span>
-                    <img className="pnlstrip" src={pnlstrip} />
+                    <img className="pnlstrip" src={pnlstrip} alt="pnl strip of bread" />
                 </span>
             </Container>
     }
