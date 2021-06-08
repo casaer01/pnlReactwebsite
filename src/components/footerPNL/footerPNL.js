@@ -17,6 +17,9 @@ class FooterPNL extends Component{
                     <img src={pnldistlogo} alt="Pnl's logo" width="100%" />
                     </Col>
 
+                    <Col xs={1} >
+                    </Col>
+
                     <Col>
                     <dl>
                         <dt>Breads</dt>
