@@ -1,12 +1,30 @@
+import React ,{ Component } from "react";
 import './App.css';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import Topnavbar from './components/TopNavbar/Topnavbar';
+import Slideshow from './components/sildeshow/Slideshow';
+import AboutPNL from './components/AboutPNL/AboutPNL';
+import FooterPNL from './components/footerPNL/footerPNL';
+import MenuPNL from "./components/MenuPNL/menuPNL";
+
+class App extends Component {
+  render () {
+    return (
+      <Router>
+        <div className='App' >
+          <Route path="/" component={Topnavbar} />
 
 
-function App() {
-  return (
-    <div className="App">
-      <p>this is app.js</p>
-    </div>
-  );
+          <Route path="/" exact component={Slideshow}  />
+          <Route path="/" exact component={AboutPNL} />
+          <Route path="/Menu" component={MenuPNL} />
+
+          
+          <Route path="/" component={FooterPNL} />
+        </div>
+      </Router>
+    );
+  }
 }
 
 export default App;

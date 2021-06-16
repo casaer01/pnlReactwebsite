@@ -1,0 +1,9 @@
+.menupnl {
+  background-image: url(../../images/aboutbg.png);
+  background-size: cover;
+  padding: 5% 9%;
+}
+
+.downloadbutton {
+  margin: 3%;
+}
