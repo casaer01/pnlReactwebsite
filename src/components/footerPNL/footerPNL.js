@@ -22,21 +22,23 @@ class FooterPNL extends Component{
 
                     <Col>
                     <dl>
-                        <dt>Breads</dt>
-                        <dt>Tortillas</dt>
-                        <dt>Sweets</dt>
-                        <dt>About</dt>
-                        <dt>Contact</dt>
+                        <dt><a href="/Menu" >Menu</a></dt>
+                        <dt><a href="/Tortillas" >Tortillas</a></dt>
+                        <dt><a href="/Sweets" >Sweets</a></dt>
+                        <dt><a href="/#aboutpnl">About</a></dt>
+                        <dt>Contact Us</dt>
                     </dl>
                     </Col>
 
                     <Col>
                     <dl>
                         <dt>Telephone:</dt>
-                        <dt>(312)243-5977</dt>
+                        <a className="links" href="tel:+13122435977">
+                            <dt>(312) 243-5977</dt>
+                        </a>
                         <br />
                         <dt>Address:</dt>
-                        <dt>1634 W 18th ST</dt>
+                        <dt>1634 W 18th St</dt>
                         <dt>Chicago, Illinois</dt>
                     </dl>
                     </Col>

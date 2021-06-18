@@ -17,7 +17,7 @@ class AboutPNL extends Component{
 
     render() {
         return (
-        <Container className="aboutpnl" ref={this.aboutRef} fluid >
+        <Container className="aboutpnl" id="aboutpnl" ref={this.aboutRef} fluid >
             <span>
                 <img className="pnlstrip" src={pnlstrip} alt="pnl strip of bread" />
             </span>

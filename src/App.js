@@ -6,6 +6,7 @@ import Slideshow from './components/sildeshow/Slideshow';
 import AboutPNL from './components/AboutPNL/AboutPNL';
 import FooterPNL from './components/footerPNL/footerPNL';
 import MenuPNL from "./components/MenuPNL/menuPNL";
+import Tortillas from "./components/Tortillas/Tortillas";
 
 class App extends Component {
   render () {
@@ -18,6 +19,7 @@ class App extends Component {
           <Route path="/" exact component={Slideshow}  />
           <Route path="/" exact component={AboutPNL} />
           <Route path="/Menu" component={MenuPNL} />
+          <Route path="/Tortillas" component={Tortillas} />
 
           
           <Route path="/" component={FooterPNL} />

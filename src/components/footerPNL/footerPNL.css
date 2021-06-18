@@ -8,10 +8,12 @@
 }
 
 .footerRow {
-  /* padding-top: 5%;
-  padding-bottom: 5%; */
   padding: 3% 2%;
   color: white;
+}
+
+.links {
+  padding: 0;
 }
 
 a {
