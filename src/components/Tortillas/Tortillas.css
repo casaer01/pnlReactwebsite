@@ -1,0 +1,24 @@
+.tortillasContainer {
+  background-image: url(../../images/tortbg.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 3% 7% !important;
+}
+
+.titlecol {
+  font-size: 70px;
+}
+
+.tortPara {
+  padding: 1% 5% !important;
+  font-size: 25px;
+}
+
+.tortFoot {
+  font-size: 23px;
+}
+
+.subTort {
+  font-size: 21px;
+}

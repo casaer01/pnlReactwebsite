@@ -11,8 +11,8 @@ import pnlLogo from '../../images/PNLdistlogo.png';
 class Topnavbar extends Component {
     render() { 
         return (
-        <Container > 
-            <Navbar className="topnav justify-content-between" fixed="top" variant="dark">
+        <Container fluid className="topbody" > 
+            <Navbar className="topnav justify-content-between"  variant="dark">
                 <img src={papelred} alt='icon' />
                 <img src={pnlLogo} alt='pnl logo' height='100em' />
                 <Nav className="justify-content-end">

@@ -6,7 +6,11 @@
     rgba(149, 7, 7, 1) 15%
   );
   padding: 0 !important;
-  padding-right: 5% !important;
+  padding-right: 6% !important;
+}
+
+.topbody {
+  padding: 0 !important;
 }
 
 .navbar {

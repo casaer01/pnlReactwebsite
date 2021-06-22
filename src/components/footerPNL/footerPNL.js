@@ -22,11 +22,11 @@ class FooterPNL extends Component{
 
                     <Col>
                     <dl>
-                        <dt><a href="/Menu" >Menu</a></dt>
-                        <dt><a href="/Tortillas" >Tortillas</a></dt>
-                        <dt><a href="/Sweets" >Sweets</a></dt>
-                        <dt><a href="/#aboutpnl">About</a></dt>
-                        <dt>Contact Us</dt>
+                        <dt><a className="links" href="/Menu" >Menu</a></dt>
+                        <dt><a className="links" href="/Tortillas" >Tortillas</a></dt>
+                        <dt><a className="links" href="/Sweets" >Sweets</a></dt>
+                        <dt><a className="links" href="/#aboutpnl">About</a></dt>
+                        <dt><a className="links" href="/ContactUs" >Contact Us</a></dt>
                     </dl>
                     </Col>
 
@@ -38,8 +38,10 @@ class FooterPNL extends Component{
                         </a>
                         <br />
                         <dt>Address:</dt>
-                        <dt>1634 W 18th St</dt>
-                        <dt>Chicago, Illinois</dt>
+                        <a className="links" href="https://goo.gl/maps/wVDQASLvuC4qx46E9" >
+                            <dt>1634 W 18th St</dt>
+                            <dt>Chicago, Illinois</dt>
+                        </a>
                     </dl>
                     </Col>
 
