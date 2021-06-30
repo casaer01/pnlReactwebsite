@@ -17,6 +17,10 @@
   color: white;
 }
 
-a {
+/* a {
   padding: 5px 10px;
+} */
+
+a img {
+  margin: 1%;
 }

@@ -1,7 +1,5 @@
 import React ,{ Component } from "react";
-import { Container } from "react-bootstrap";
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import { Container, Row, Col } from "react-bootstrap";
 import pnldistlogo from '../../../src/images/PNLdistlogo.png';
 import pnldistmenu from '../../../src/images/PNLdistmenu.png';
 import pnlstrip from '../../images/breads.png';
@@ -9,11 +7,6 @@ import "./AboutPNL.css"
 
 
 class AboutPNL extends Component{
-
-    constructor(props) {
-        super(props);
-        this.aboutRef = React.createRef();  
-    }
 
     render() {
         return (

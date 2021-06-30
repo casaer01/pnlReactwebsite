@@ -1,0 +1,17 @@
+.Contact {
+  background: url(../../images/aboutbg.png);
+  background-size: cover;
+  color: white;
+  padding: 2%;
+}
+
+p {
+  padding: 1rem;
+  margin: 0px !important;
+}
+
+.Gmap {
+  border: 0;
+  width: 800px;
+  height: 600px;
+}

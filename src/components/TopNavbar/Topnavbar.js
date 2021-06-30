@@ -12,7 +12,7 @@ class Topnavbar extends Component {
     render() { 
         return (
         <Container fluid className="topbody" > 
-            <Navbar className="topnav justify-content-between"  variant="dark">
+            <Navbar className="topnav justify-content-between"  variant="dark" expand="lg" >
                 <img src={papelred} alt='icon' />
                 <img src={pnlLogo} alt='pnl logo' height='100em' />
                 <Nav className="justify-content-end">
