@@ -15,3 +15,9 @@ p {
   width: 800px;
   height: 600px;
 }
+
+a:link,
+a:hover,
+a:link:active {
+  color: white;
+}
