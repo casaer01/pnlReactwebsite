@@ -21,3 +21,15 @@
   /* the rest of your styling */
   background-color: #8c0606;
 }
+
+@media screen and (max-width: 480px) {
+  .navImagesLogo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .navImages {
+    display: none;
+  }
+}
