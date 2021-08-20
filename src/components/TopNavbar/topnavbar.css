@@ -22,6 +22,10 @@
   background-color: #8c0606;
 }
 
+a {
+  font-size: larger;
+}
+
 @media screen and (max-width: 480px) {
   .navImagesLogo {
     display: none;

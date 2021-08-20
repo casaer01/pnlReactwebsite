@@ -17,10 +17,12 @@
   color: white;
 }
 
-/* a {
-  padding: 5px 10px;
-} */
-
 a img {
   margin: 1%;
+}
+
+@media screen and (max-width: 680px) {
+  .footerLogo {
+    display: none;
+  }
 }
