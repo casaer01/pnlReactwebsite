@@ -7,7 +7,8 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/App.js</code> and save to reload. <br></br>
+          This is where everything starts.
         </p>
         <a
           className="App-link"
@@ -18,6 +19,14 @@ function App() {
           Learn React
         </a>
       </header>
+      <div class="card">
+        <img src="..." class="card-img-top" alt="..."/>
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p  class="btn btn-primary">Go somewhere</p>
+        </div>
+      </div>
     </div>
   );
 }

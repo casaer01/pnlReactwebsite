@@ -1,0 +1,22 @@
+.aboutpnl {
+  background-image: url(../../images/aboutbg.png);
+  background-size: cover;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.info {
+  color: white;
+  text-align: center;
+  font-size: larger;
+  padding: 0% 15%;
+}
+
+.pnllogosRow {
+  padding-bottom: 4%;
+}
+
+.pnlstrip {
+  width: 100%;
+  padding: 3% 0%;
+}

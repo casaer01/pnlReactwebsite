@@ -1,0 +1,39 @@
+.topnav {
+  background: rgb(112, 4, 4);
+  background: linear-gradient(
+    0deg,
+    rgba(112, 4, 4, 1) 0%,
+    rgba(149, 7, 7, 1) 15%
+  );
+  padding: 0 !important;
+  padding-right: 6% !important;
+}
+
+.topbody {
+  padding: 0 !important;
+}
+
+.navbar {
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
+
+  /* the rest of your styling */
+  background-color: #8c0606;
+}
+
+a {
+  font-size: larger;
+}
+
+@media screen and (max-width: 480px) {
+  .navImagesLogo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .navImages {
+    display: none;
+  }
+}
